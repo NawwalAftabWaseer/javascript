@@ -146,4 +146,98 @@ let c2 = a>1
 console.log(c1 && c2);
 console.log(c1 || c2);
 
+//*****************************Conditional statements**********/
+a = 120;
+if(a<100){
+    console.log('number is less then 100')
+} else{
+    console.log('number is greater then 100')
+}
+
+b = 190;
+if(b = 100){
+    console.log('number is 100 equilant')
+} else if(b>100){
+    console.log('num is greater then 100')
+} else{
+    console.log('number is less then 100')
+}
+
+//Weight of the package in kilograms.
+// Distance of shipping in kilometers.
+// The shipping cost is calculated based on the following criteria:
+
+// If the weight of the package is less than or equal to 5 kg:
+// If the distance is less than or equal to 100 km, the shipping cost is $5.
+// If the distance is greater than 100 km, the shipping cost is $8.
+// If the weight of the package is more than 5 kg:
+// If the distance is less than or equal to 100 km, the shipping cost is $10.
+// If the distance is greater than 100 km, the shipping cost is $15.
+
+weight = 3;
+distance = 50;
+
+if(weight <= 5){
+    if(distance <= 100){
+        console.log('shipping cost is 5')
+    } else if(distance > 100){
+        console.log('shipping cost is 8')
+    }
+} 
+
+if(weight > 5){
+    if(distance <= 100){
+        console.log('shipping cost is 10')
+    } else if(distance > 100){
+        console.log('shipping cost is 15')
+    }
+}
+//same code with user input 
+weight = prompt("enter weight");
+distance = prompt('enter distance');
+
+if(weight <= 5){
+    if(distance <= 100){
+        console.log('shipping cost is 5')
+    } else if(distance > 100){
+        console.log('shipping cost is 8')
+    }
+} 
+
+if(weight > 5){
+    if(distance <= 100){
+        console.log('shipping cost is 10')
+    } else if(distance > 100){
+        console.log('shipping cost is 15')
+    }
+}
+
+// Age of the person.
+// Citizenship status (yes or no).
+// The eligibility rules are as follows:
+
+// If the person is 18 years old or older and is a citizen (citizenship === 'yes'), they are eligible to vote.
+// If the person is under 18 years old, they are not eligible to vote regardless of their citizenship status.
+// If the person is 18 years old or older but is not a citizen (citizenship === 'no'), they are not eligible to vote.
+
+Age = prompt('enter your age');
+citizenship = prompt('enter your citizenship in yes or no');
+
+if(citizenship != 'yes' || citizenship != 'no'){
+    console.log('wrong input')
+}
+else{
+    if(Age == 18 || Age > 18 && citizenship == 'yes'){
+    console.log('eligibile for voting')
+} 
+else if(Age < 18){
+    console.log('not eligible for voting')
+} 
+else if(Age == 18 || Age > 18 && citizenship == 'no'){
+    console.log('not eligible for voting')
+}
+}
+
+
+
 
