@@ -238,6 +238,65 @@ else if(Age == 18 || Age > 18 && citizenship == 'no'){
 }
 }
 
+let day = prompt('Enter the day of the week:');
+
+switch (day) {
+    case 'monday':
+        console.log('Start of the workweek');
+        break;
+    case 'friday':
+        console.log('Almost weekend!');
+        break;
+    default:
+        console.log('Midweek blues');
+        break;
+}
+
+// Create a program that simulates a simple vending machine. The machine dispenses drinks based on a user's selection:
+
+// Enter 1 for a soda (costs $1.00)
+// Enter 2 for juice (costs $1.50)
+// Enter 3 for water (costs $0.75)
+// Enter anything else for "Invalid selection"
+// The program should:
+
+// Prompt the user to enter their selection (1, 2, or 3).
+// Use a switch statement to handle the selection.
+// For valid selections (1, 2, or 3), display the corresponding drink name and its price.
+// For invalid selections, display an "Invalid selection" message.
+// Bonus:
+
+// Enhance the program to accept money from the user and check if it's sufficient for the chosen drink. If not, display an "Insufficient funds" message.
+
+selection = prompt('enter your selection')
+cash = prompt('enter the ammount of cash')
+switch(selection){
+    case '1' :
+        if(cash < 1){
+            console.log('insufficient funds')
+        } else{
+            console.log('take it')
+        }
+        break;
+    case '2' :
+        if(cash < 1.5){
+            console.log('insufficient funds')
+        } else{
+            console.log('take it')
+        }
+        break;
+    case '3' :
+        if(cash < 0.75){
+            console.log('insufficient funds')
+        } else{
+            console.log('take it')
+        }
+        break;
+    default:
+        console.log('invalid selection')
+        break;
+}
+
 
 
 
