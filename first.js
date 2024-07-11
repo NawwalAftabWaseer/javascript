@@ -126,10 +126,24 @@ c **= 2;
 console.log(c);
 
 //comparison operators
-// == === != !==
+// == ===(type) != !==(type)
 b = '1';
 console.log(a==b);
 console.log(a===b);
 console.log(a!=b);
 b= 1;
 console.log(a!==b)
+console.log(a>b);
+console.log(a<=b);
+console.log(a<b);
+
+//logical operators
+// && || !
+a = 2
+b = 3
+let c1 = a>b
+let c2 = a>1
+console.log(c1 && c2);
+console.log(c1 || c2);
+
+
