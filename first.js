@@ -328,5 +328,8 @@ else if(score >= 50 && score <= 59){
 else{
     console.log('F')
 }
-
+//************************************LOOPS***********************************/
+for(i = 0 ; i <= 4 ; i++){
+    console.log('nawwal aftab')
+}
 
