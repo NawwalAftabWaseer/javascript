@@ -174,162 +174,198 @@ if(b = 100){
 // If the distance is less than or equal to 100 km, the shipping cost is $10.
 // If the distance is greater than 100 km, the shipping cost is $15.
 
-weight = 3;
-distance = 50;
+// weight = 3;
+// distance = 50;
 
-if(weight <= 5){
-    if(distance <= 100){
-        console.log('shipping cost is 5')
-    } else if(distance > 100){
-        console.log('shipping cost is 8')
-    }
-} 
+// if(weight <= 5){
+//     if(distance <= 100){
+//         console.log('shipping cost is 5')
+//     } else if(distance > 100){
+//         console.log('shipping cost is 8')
+//     }
+// } 
 
-if(weight > 5){
-    if(distance <= 100){
-        console.log('shipping cost is 10')
-    } else if(distance > 100){
-        console.log('shipping cost is 15')
-    }
+// if(weight > 5){
+//     if(distance <= 100){
+//         console.log('shipping cost is 10')
+//     } else if(distance > 100){
+//         console.log('shipping cost is 15')
+//     }
+// }
+// //same code with user input 
+// weight = prompt("enter weight");
+// distance = prompt('enter distance');
+
+// if(weight <= 5){
+//     if(distance <= 100){
+//         console.log('shipping cost is 5')
+//     } else if(distance > 100){
+//         console.log('shipping cost is 8')
+//     }
+// } 
+
+// if(weight > 5){
+//     if(distance <= 100){
+//         console.log('shipping cost is 10')
+//     } else if(distance > 100){
+//         console.log('shipping cost is 15')
+//     }
+// }
+
+// // Age of the person.
+// // Citizenship status (yes or no).
+// // The eligibility rules are as follows:
+
+// // If the person is 18 years old or older and is a citizen (citizenship === 'yes'), they are eligible to vote.
+// // If the person is under 18 years old, they are not eligible to vote regardless of their citizenship status.
+// // If the person is 18 years old or older but is not a citizen (citizenship === 'no'), they are not eligible to vote.
+
+// Age = prompt('enter your age');
+// citizenship = prompt('enter your citizenship in yes or no');
+
+// if(citizenship != 'yes' || citizenship != 'no'){
+//     console.log('wrong input')
+// }
+// else{
+//     if(Age == 18 || Age > 18 && citizenship == 'yes'){
+//     console.log('eligibile for voting')
+// } 
+// else if(Age < 18){
+//     console.log('not eligible for voting')
+// } 
+// else if(Age == 18 || Age > 18 && citizenship == 'no'){
+//     console.log('not eligible for voting')
+// }
+// }
+
+// let day = prompt('Enter the day of the week:');
+
+// switch (day) {
+//     case 'monday':
+//         console.log('Start of the workweek');
+//         break;
+//     case 'friday':
+//         console.log('Almost weekend!');
+//         break;
+//     default:
+//         console.log('Midweek blues');
+//         break;
+// }
+
+// // Create a program that simulates a simple vending machine. The machine dispenses drinks based on a user's selection:
+
+// // Enter 1 for a soda (costs $1.00)
+// // Enter 2 for juice (costs $1.50)
+// // Enter 3 for water (costs $0.75)
+// // Enter anything else for "Invalid selection"
+// // The program should:
+
+// // Prompt the user to enter their selection (1, 2, or 3).
+// // Use a switch statement to handle the selection.
+// // For valid selections (1, 2, or 3), display the corresponding drink name and its price.
+// // For invalid selections, display an "Invalid selection" message.
+// // Bonus:
+
+// // Enhance the program to accept money from the user and check if it's sufficient for the chosen drink. If not, display an "Insufficient funds" message.
+
+// selection = prompt('enter your selection')
+// cash = prompt('enter the ammount of cash')
+// switch(selection){
+//     case '1' :
+//         if(cash < 1){
+//             console.log('insufficient funds')
+//         } else{
+//             console.log('take it')
+//         }
+//         break;
+//     case '2' :
+//         if(cash < 1.5){
+//             console.log('insufficient funds')
+//         } else{
+//             console.log('take it')
+//         }
+//         break;
+//     case '3' :
+//         if(cash < 0.75){
+//             console.log('insufficient funds')
+//         } else{
+//             console.log('take it')
+//         }
+//         break;
+//     default:
+//         console.log('invalid selection')
+//         break;
+// }
+// //ternary operator used for if else constraint
+// function value(a){
+//     return (a<10) ? 'a is less then 10' : (a > 10) ? 'a is > 10': 'a is 10';
+// }
+// console.log(value(5));
+
+// //ternary operator simple if else
+// b = prompt('enter a number of you choice');
+// result = (b < 100) ? 'number is less then 100' : (b > 100) ? 'number is greater then 100' : 'number is not in my limit';
+// console.log(result);
+
+// c = prompt('enter a number of your choice')
+// ans = (c<20) ? 'number is less then 20' : (c > 30) ? 'number is greater then 30' : 'number is out of my range';
+// console.log(ans);
+
+// //write program that will assign grades to students
+// score = prompt('enter your score out of 100');
+// if(score >= 80 && score <= 100){
+//     console.log('A')
+// } 
+// else if(score >= 70 && score <= 79){
+//     console.log('B')
+// }
+// else if(score >= 60 && score <= 69){
+//     console.log('C')
+// }
+// else if(score >= 50 && score <= 59){
+//     console.log(D)
+// }
+// else{
+//     console.log('F')
+// }
+//******************************************LOOPS**********************/
+for(let i = 0 ; i <= 4 ; i++){
+    a = 'nawwal'
+    b = 'aftab'
+    console.log(a + '' + b)
 }
-//same code with user input 
-weight = prompt("enter weight");
-distance = prompt('enter distance');
-
-if(weight <= 5){
-    if(distance <= 100){
-        console.log('shipping cost is 5')
-    } else if(distance > 100){
-        console.log('shipping cost is 8')
-    }
-} 
-
-if(weight > 5){
-    if(distance <= 100){
-        console.log('shipping cost is 10')
-    } else if(distance > 100){
-        console.log('shipping cost is 15')
-    }
+for(let j = 4 ; j >= 0 ; j--){
+    console.log('aftab')
 }
 
-// Age of the person.
-// Citizenship status (yes or no).
-// The eligibility rules are as follows:
-
-// If the person is 18 years old or older and is a citizen (citizenship === 'yes'), they are eligible to vote.
-// If the person is under 18 years old, they are not eligible to vote regardless of their citizenship status.
-// If the person is 18 years old or older but is not a citizen (citizenship === 'no'), they are not eligible to vote.
-
-Age = prompt('enter your age');
-citizenship = prompt('enter your citizenship in yes or no');
-
-if(citizenship != 'yes' || citizenship != 'no'){
-    console.log('wrong input')
+//sum of 1-5
+sum = 0
+n = 5 //termination value
+for(let i = 1 ; i<=n ; i++){
+    sum += i;
+    console.log('current sum =', sum)
 }
-else{
-    if(Age == 18 || Age > 18 && citizenship == 'yes'){
-    console.log('eligibile for voting')
-} 
-else if(Age < 18){
-    console.log('not eligible for voting')
-} 
-else if(Age == 18 || Age > 18 && citizenship == 'no'){
-    console.log('not eligible for voting')
-}
+console.log('final sum =', sum)
+
+for (let i=1;i<=5;i++){
+    console.log('i=',i);
 }
 
-let day = prompt('Enter the day of the week:');
-
-switch (day) {
-    case 'monday':
-        console.log('Start of the workweek');
-        break;
-    case 'friday':
-        console.log('Almost weekend!');
-        break;
-    default:
-        console.log('Midweek blues');
-        break;
+//multiply numbers 1-10
+result = 1
+termination = 10
+for(let i=1 ; i<=termination ; i++){
+    result *= i;
+    console.log('current multiplication', result)
 }
+console.log('final multiplication', result)
 
-// Create a program that simulates a simple vending machine. The machine dispenses drinks based on a user's selection:
+//infinite for loop
+// for(i=0 ; i>=0 ; i++){
+//     console.log('infinite loop')
+// }
 
-// Enter 1 for a soda (costs $1.00)
-// Enter 2 for juice (costs $1.50)
-// Enter 3 for water (costs $0.75)
-// Enter anything else for "Invalid selection"
-// The program should:
 
-// Prompt the user to enter their selection (1, 2, or 3).
-// Use a switch statement to handle the selection.
-// For valid selections (1, 2, or 3), display the corresponding drink name and its price.
-// For invalid selections, display an "Invalid selection" message.
-// Bonus:
 
-// Enhance the program to accept money from the user and check if it's sufficient for the chosen drink. If not, display an "Insufficient funds" message.
 
-selection = prompt('enter your selection')
-cash = prompt('enter the ammount of cash')
-switch(selection){
-    case '1' :
-        if(cash < 1){
-            console.log('insufficient funds')
-        } else{
-            console.log('take it')
-        }
-        break;
-    case '2' :
-        if(cash < 1.5){
-            console.log('insufficient funds')
-        } else{
-            console.log('take it')
-        }
-        break;
-    case '3' :
-        if(cash < 0.75){
-            console.log('insufficient funds')
-        } else{
-            console.log('take it')
-        }
-        break;
-    default:
-        console.log('invalid selection')
-        break;
-}
-//ternary operator used for if else constraint
-function value(a){
-    return (a<10) ? 'a is less then 10' : (a > 10) ? 'a is > 10': 'a is 10';
-}
-console.log(value(5));
-
-//ternary operator simple if else
-b = prompt('enter a number of you choice');
-result = (b < 100) ? 'number is less then 100' : (b > 100) ? 'number is greater then 100' : 'number is not in my limit';
-console.log(result);
-
-c = prompt('enter a number of your choice')
-ans = (c<20) ? 'number is less then 20' : (c > 30) ? 'number is greater then 30' : 'number is out of my range';
-console.log(ans);
-
-//write program that will assign grades to students
-score = prompt('enter your score out of 100');
-if(score >= 80 && score <= 100){
-    console.log('A')
-} 
-else if(score >= 70 && score <= 79){
-    console.log('B')
-}
-else if(score >= 60 && score <= 69){
-    console.log('C')
-}
-else if(score >= 50 && score <= 59){
-    console.log(D)
-}
-else{
-    console.log('F')
-}
-//************************************LOOPS***********************************/
-for(i = 0 ; i <= 4 ; i++){
-    console.log('nawwal aftab')
-}
 
