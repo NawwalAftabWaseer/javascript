@@ -296,7 +296,19 @@ switch(selection){
         console.log('invalid selection')
         break;
 }
+//ternary operator used for if else constraint
+function value(a){
+    return (a<10) ? 'a is less then 10' : (a > 10) ? 'a is > 10': 'a is 10';
+}
+console.log(value(5));
 
+//ternary operator simple if else
+b = prompt('enter a number of you choice');
+result = (b < 100) ? 'number is less then 100' : (b > 100) ? 'number is greater then 100' : 'number is not in my limit';
+console.log(result);
 
+c = prompt('enter a number of your choice')
+ans = (c<20) ? 'number is less then 20' : (c > 30) ? 'number is greater then 30' : 'number is out of my range';
+console.log(ans)
 
 
