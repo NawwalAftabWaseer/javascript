@@ -309,6 +309,24 @@ console.log(result);
 
 c = prompt('enter a number of your choice')
 ans = (c<20) ? 'number is less then 20' : (c > 30) ? 'number is greater then 30' : 'number is out of my range';
-console.log(ans)
+console.log(ans);
+
+//write program that will assign grades to students
+score = prompt('enter your score out of 100');
+if(score >= 80 && score <= 100){
+    console.log('A')
+} 
+else if(score >= 70 && score <= 79){
+    console.log('B')
+}
+else if(score >= 60 && score <= 69){
+    console.log('C')
+}
+else if(score >= 50 && score <= 59){
+    console.log(D)
+}
+else{
+    console.log('F')
+}
 
 
