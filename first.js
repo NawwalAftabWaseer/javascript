@@ -365,7 +365,91 @@ console.log('final multiplication', result)
 //     console.log('infinite loop')
 // }
 
+// while loop
+let o = 1;
+while(o<5){
+    console.log('hello')
+    o++;
+}
 
+//do while loop -> condition at the last
+// runs atleast one time
+ p = 1;
+do{
+    console.log('p =', p)
+    p++
+} while(p<6);
 
+// for of loop -> to iterate over strings
+namee = 'nawwal '
+size  = 0
+for(let i of namee){
+    console.log(i)
+    size++;
+    console.log('current size', size)
+}
+console.log(size)
+
+// for in loop -> return keys of any object
+let cl = {
+    namee : 'nawwal',
+    saal : 23
+};
+for(let i in cl){
+    console.log(i,'value is', cl[i])
+}
+
+// print all even numbers from 0-100
+for(let i = 0; i<=100 ; i = i+1){
+    if(i%2==0){
+        console.log('even number is',i)
+    }
+}
+
+//guess the number game
+// gamenumber = 20;
+// guess = prompt('enter any number of your choice')
+// while( guess != gamenumber){
+//     if(guess === gamenumber){
+//         break;
+//     } else{
+//         console.log('do it again')
+//         guess = prompt('enter any number of your choice')
+//     }
+// }
+// console.log('you won')
+
+//*****************************************STRINGS******************************/
+fullname = 'nawwal'
+lastname = "aftab"
+console.log(fullname[1] + lastname[1])
+
+//template literal
+let str = `nawwwal`
+console.log(typeof str)
+
+let obj = {
+    item : 'pen',
+    price : 10
+}
+let output = `the cost of ${obj.item} is ${obj.price}`
+console.log(output)
+
+//template literals can be used direclty for arithmatic operations
+let another = `the sum of 1 and 3 is   ${1+3}`
+console.log(another)
+
+console.log('nawwal \naftab') //line skip
+console.log('nawwal \taftab') //tab space
+
+// uppercase and lowercase
+fullname = fullname.toUpperCase()
+console.log(fullname)
+
+let ag = '       nawwal       '
+ag = ag.trim() //trims spaces from left to right
+console.log(ag)
+// str.slice(start,end) -->slices a part
+// str.replace(searchval, newval) --> replaces a specific string not repeats it
 
 
