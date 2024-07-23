@@ -1,0 +1,44 @@
+->DOM browser stores html and css in tree like strcutue in browser
+->what to show means html
+->how to show means css
+->behviour of whats showing means js
+->html, css and js are in link format with eachother
+
+
+link html in js
+-> create a script tag in html of js
+-> separate your js file
+-> combine file of 3rd extension (js+html)
+
+statically typed language means data types are declared first
+js is dynamically typed language
+
+VARIABLES:
+-> var is function scoped
+-> let, const are block scope
+-> block can be any piece of code in curly braces
+-> camel case and pascal case is used in js
+
+-> classes, components in pascal case
+-> functions,variables in camel case
+
+-> everything is primitive(int,bigint,strings,boolean,null,undefined) or in object form
+-> functions are object (of function class)
+-> in strings - cant be used because it expects numbers
+-> - looks for number and if string can be converted to number then it converts
+-> + wherever applied will coocat the things	
+-> Nan has type number
+-> change in type of variable automatically means typecoersion
+-> change in type by myself means typeconversion
+
+
+-> falsey value means 0=falsy (0 and Nan, falsey values, undefined, '' and null) value anyother=true
+-> == and ===
+-> if after coercion both are converted to same type then == will execute
+-> input field me hote number hain html but input from user mujhe string me ayegi
+-> short circuiting only checks the part required unless different operators are written
+ 
+
+
+
+

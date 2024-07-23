@@ -433,3 +433,9 @@ for(let f=1 ; f<=n ; f++){
 }
 console.log('Final Array',number_Array)
 
+
+xyz=5;
+if(xyz==5 && console.log('nawwal')){
+    console.log('hello')
+}
+console.log(xyz)
