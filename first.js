@@ -422,7 +422,7 @@ let input_Array = [87,93,64,99,86]
 let new_input_Array = input_Array.filter((val) => {
     return val >= 90;
 })
-console.log(new_input_Array)
+console.log(new_input_Array) 
 
 //take a number n from user and generate array from 1-n 
 let n = parseInt(prompt('enterr a number greater then 0'))

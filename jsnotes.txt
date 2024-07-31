@@ -37,7 +37,66 @@ VARIABLES:
 -> if after coercion both are converted to same type then == will execute
 -> input field me hote number hain html but input from user mujhe string me ayegi
 -> short circuiting only checks the part required unless different operators are written
- 
+
+Day:2
+
+->STRING AND TEMPLATE LITERALS
+-> switch case should always use ===
+-> always end a case with break otherwise other cases will run
+
+->STATEMENTS AND EXPRESSIONS
+->line that produces no value means statement
+->line that produces value means expression
+->in most cases functions are expressions
+
+->Ternary opperator
+->used for mostly single line if statements
+->this opperator returns as expression
+
+->Functions
+// const m = 'abc'
+// m()
+
+// function abc(x, y) {
+//     return x + y;
+//   }
+  
+//   const z = abc(5);
+//   console.log(z); 
+
+// x is initialized 5 and y is initialized undefined and 5+undefined= Nan
+
+// function abc(x, y=10) { // default value of y = 10;
+//     return x + y;
+//   }
+  
+//   const z = abc(5);
+//   console.log(z); 
+
+// function abc(x, y=10, z=15) { // default value of y = 10 and z = 15;
+//     return x + y;
+//   }
+  
+//   const z = abc(5);
+//   console.log(z); 
+
+DAY:03
+-> Higher order functions
+
+
+->destructring
+->IMP INTERVIEW QUESTION
+->rest operators //rest of values
+->swapping //spread values
+->spread operator
+->APPLICABLE SAME ON OBJECTS
+->map method
+->filter method
+->remove duplicate from arrays using loops
+//one liner return statements dont need return and curly braces in it
+
+
+
 
 
 
